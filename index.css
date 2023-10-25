@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    color:white;
+}
+body{
+    background-color: black;
+}
+#logo{
+    height:80px;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:orange;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+    top:10px;
+    padding:10px;
+    border-radius: 30px;;
+    box-shadow: rgba(244, 244, 255, 0.438) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#nav-links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+#nav-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+#login{
+    padding:5px;
+    border-radius: 8px;
+    color:black;
+    background-color: orange;
+    border:none;
+    outline: none;
+    cursor: pointer;
+}
+#login:hover,#main button:hover{
+    background-color: coral;
+}
+#back{
+    height:90vh;
+    width: 60%;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/yCPyoZDQBBcXikqxkeW2jJ.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position:relative;
+    left:40%;
+    top:10%;
+}
+span{
+    color:orange;
+}
+#main{
+    height:90vh;
+    text-align: center;
+    width:40%;
+    position:absolute;
+    top:14%;
+    left:30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    flex-direction: column;
+    gap:30px;
+}
+#main button{
+    padding:15px;
+    color:black;
+    background-color: #FFA500;
+    border:none;
+    outline:none;
+    border-radius: 15px;
+    cursor:pointer;
+}
+#tours{
+    height:110vh;
+    width:100%;
+    text-align: center;
+}
+.cards img{
+    height:200px;
+    width:350px;
+    border-radius: 15px;
+}
+.cards{
+    width:400px;
+    width: fit-content;
+    padding:10px;
+    border-radius: 10px;
+    background-color:rgb(0, 0, 0);
+}
+.cards h3{
+    padding:20px;
+}
+#tour-cards{
+    margin:100px 0px 0px 30px;
+    display:flex;
+    flex-wrap: nowrap;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
+#book-now{
+    display: flex;
+    margin-top:80px;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+#book-now button{
+    margin-top:30px;
+    padding:15px;
+    border-radius: 10px;
+    border:none;
+    color:black;
+    background-color: olivedrab;
+}
+#book-now button:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+.gif,.gif2{
+    position:absolute;
+    height:400px;
+    top:180vh;
+    z-index: 0;
+    right:0;
+}
+.gif2{
+    left:0;
+}
